@@ -1,5 +1,5 @@
 include_directories(.)
-file(GLOB LIB_SOURCES ./*.c)
-file(GLOB LIB_HEADERS ./*.h)
+file(GLOB LIB_SOURCES ./*.cpp)
+file(GLOB LIB_HEADERS ./*.hpp)
 add_executable(QBSM ${LIB_SOURCES} ${LIB_HEADERS})
 target_link_libraries(QBSM BSMcore)
