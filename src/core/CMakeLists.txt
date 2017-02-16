@@ -1,4 +1,4 @@
 include_directories(.)
-file(GLOB LIB_SOURCES ./*.cpp)
-file(GLOB LIB_HEADERS ./*.h)
-add_library(BSMcore ${LIB_SOURCES} ${LIB_HEADERS})
+file(GLOB core_LIB_SOURCES ./*.cpp)
+file(GLOB coreLIB_HEADERS ./*.h)
+add_library(BSMcore SHARED ${core_LIB_SOURCES} ${core_LIB_HEADERS})
