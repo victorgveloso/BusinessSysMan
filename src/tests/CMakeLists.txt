@@ -1,8 +1,0 @@
-enable_testing()
-find_package(GTest REQUIRED)
-include_directories(. ${GTEST_INCLUDE_DIRS})
-file(GLOB tests_LIB_SOURCES ./*.cpp)
-file(GLOB tests_LIB_HEADERS ./*.h)
-add_executable(BSMtests ${tests_LIB_SOURCES} ${tests_LIB_HEADERS})
-target_link_libraries(BSMtests BSMcore ${GTEST_BOTH_LIBRARIES})
-add_test(BSMtesting BSMtests)

@@ -1,0 +1,9 @@
+[submodule "src/core"]
+	path = src/core
+	url = git@github.com:primary157/BSM-core.git
+[submodule "src/tests"]
+	path = src/tests
+	url = git@github.com:primary157/BSM-tests.git
+[submodule "src/qtgui"]
+	path = src/qtgui
+	url = git@github.com:primary157/SIS-BSM.git
